@@ -1,4 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet');
 
+body {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2{
+  color:white;
+}
+
+h3{
+  color: white;
+}
+
+header {
+  font-family: 'Playfair Display SC', serif;
+  padding: 1rem;
+  background: linear-gradient(to right,black, #D99E37);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header>h1>a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  margin-left: 200px;
+}
+
+header>button{
+  margin-left: 200px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+header>button:hover{
+  background-color: rgb(161, 118, 44);
+  color: white;
+}
+
+form>button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+form>button:hover {
+  background-color: rgb(161, 118, 44); 
+  color: white;
+}
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 15rem;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 15rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.restaurant-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-gap: 10px;
+  margin: 8rem 10rem;
+}
+
+.restaurant-info {
+  cursor: pointer;
+}
+
+.restaurant-page, p {
+ color: white;
+ margin-left: 50px;
+}
+
+.create-restaurant {
+  display: grid;
+  width: 20rem;
+  margin: 8rem auto;
+  /* padding: 2rem 2rem 3.5rem 2rem; */
+}
+
+form>a{
+  color: #D99E37;
+}
+
+img {
+  max-width: 30rem;
+  padding: 2rem;
+}
+
+.plus-sign {
+  max-width: 4rem;
+  cursor: pointer;
+}
+
+footer{
+  background: linear-gradient(to right, #D99E37, black);
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: 100vh;
+}
+
+.footer-dk{
+  color:white;
+}
 
 
 
