@@ -242,7 +242,9 @@ class App extends Component {
           }}
         />
 
-        <footer className="footer-dk">©DK Development</footer>
+        <footer>
+          <div className="footer-dk">©DK Development</div>  
+          </footer> 
       </div>
     );
   }

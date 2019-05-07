@@ -55,6 +55,12 @@ div>a{
   text-decoration: none;
   color: black;
   margin-left: 50px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+div>a:hover{
+  color: white;
 }
 
 header>button{
@@ -164,11 +170,12 @@ footer{
   background: linear-gradient(to right, #D99E37, black);
   display: flex;
   justify-content: center;
-  height: 30px;
+  height: 40px;
   margin-top: 100vh;
 }
 
 .footer-dk{
+  margin-top: 10px;
   color:white;
 }
 

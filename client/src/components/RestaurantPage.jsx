@@ -37,7 +37,7 @@ class RestaurantsView extends Component {
               :
               <>
                 <h1>{restaurant.name}</h1>
-                Customer comment: 
+                Reviews: 
                 <li>"{restaurant.comment}"</li>
                 <button onClick={() => {
                   this.setState({
