@@ -36,7 +36,7 @@ header {
 
 header>p{
   font-size: 12px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 header>h1>a {
@@ -58,6 +58,7 @@ div>a{
 }
 
 header>button{
+  border-radius: 20px;
   margin-left: 0px;
   margin-right: 0px;
   -webkit-transition-duration: 0.4s; 
@@ -70,8 +71,9 @@ header>button:hover{
 }
 
 button.logout{
-  margin-left: 0px;
-  padding: 1px 1px;
+  margin-right: 10px;
+  padding: 1px;
+  border-radius: 10px;
 }
 
 a{
