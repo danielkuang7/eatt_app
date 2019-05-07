@@ -26,11 +26,6 @@ function RestaurantsView(props) {
           props.history.push('/new/restaurant');
           window.scrollTo(0, 0);
         }}>
-        <img
-          alt="Create a new restaurant"
-          src="https://cdn3.iconfinder.com/data/icons/buttons/512/Icon_11-512.png"
-          className="plus-sign" />
-        <h4>Create a new restaurant</h4>
       </div>
     </div>
   )

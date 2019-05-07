@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import decode from 'jwt-decode';
 
+import Logo from './components/Logo';
 import RestaurantsView from './components/RestaurantsView';
 import RestaurantPage from './components/RestaurantPage';
 import CreateRestaurant from './components/CreateRestaurant'
@@ -155,26 +156,28 @@ class App extends Component {
     return (
       <div className="App">
        <header>
-          <h1><Link to='/' onClick={() => this.setState({
-            restaurantForm: {
-              name: "",
-              photo: ""
-            }
-          })}>EATT</Link></h1>
+          <h1><Link to='/'>EATT</Link></h1>
 
-          <div className="nav"><Link to='/' onClick={() => this.setState({
-            restaurantForm: {
-              name: "",
-              photo: ""
-            }
-          })}>Home</Link>
+          <div className="nav"><Link to='/'>Home</Link>
 
           <Link to='/monthly' onClick={() => this.setState({
             restaurantForm: {
               name: "",
               photo: ""
             }
-          })}>Hottest</Link></div>
+          })}>Hottest</Link>
+
+          <Link to='/new/restaurant' onClick={() => this.setState({
+            restaurantForm: {
+              name: "",
+              photo: ""
+            }
+          })}>Create</Link>
+          
+          
+          </div>
+
+          
           
           {this.state.currentUser
             ?
@@ -188,6 +191,8 @@ class App extends Component {
           
           </header>
 
+
+          
 
         <Route exact path="/login" render={() => (
           <Login
