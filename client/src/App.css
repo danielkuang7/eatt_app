@@ -10,6 +10,7 @@ h1 {
   margin: 0;
 }
 
+
 h2{
   color:white;
 }
@@ -142,17 +143,43 @@ html {
 .restaurant-page, p {
  font-family: 'Playfair Display SC', serif;
  color: white;
+ margin-left: 30px;
+ -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.restaurant-page, tag{
+ font-family: 'Playfair Display SC', serif;
+ color: white;
  margin-left: 50px;
 }
+
+.restaurant-page, p:hover {
+  color: rgb(161, 118, 44);
+ }
 
 .create-restaurant {
   display: grid;
   width: 20rem;
-  margin: 8rem auto;
+  margin: 5rem auto;
+}
+
+form>p{
+  display: flex;
+  justify-content: center;
+}
+
+form>input{
+margin-left: 30px;
 }
 
 form>a{
   color: #D99E37;
+}
+
+form>div>button{
+  margin-left: 30px;
+  background-color: rgb(161, 118, 44); 
 }
 
 img {

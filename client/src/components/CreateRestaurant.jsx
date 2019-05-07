@@ -26,7 +26,7 @@ function CreateRestaurant(props) {
           name="comment"
           value={props.restaurantForm.comment}
           onChange={props.handleFormChange} />
-        <button>Submit</button>
+        <div><button>Submit</button></div>
       </form>
     </div >
   )
