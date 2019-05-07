@@ -4,6 +4,7 @@ import { withRouter } from 'react-router';
 function RestaurantsView(props) {
   return (
     <div className="restaurant-container">
+    <p>OUR HOTTEST EATT OF THE MONTH</p>
       {props.restaurants.map(restaurant => (
         <div
           key={restaurant.id}
@@ -15,7 +16,7 @@ function RestaurantsView(props) {
           }}>
           <img alt={restaurant.name} src={restaurant.photo} />
           <h3>
-            <p>{restaurant.name}</p>
+           <p>{restaurant.name}</p>
           </h3>
         </div>
       ))}
