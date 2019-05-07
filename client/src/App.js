@@ -27,7 +27,8 @@ class App extends Component {
       restaurants: [],
       restaurantForm: {
         name: "",
-        photo: ""
+        photo: "",
+        comment: ""
       },
       currentUser: null,
       authFormData: {
@@ -73,7 +74,8 @@ class App extends Component {
       restaurants: [...prevState.restaurants, restaurant],
       restaurantForm: {
         name: "",
-        photo: ""
+        photo: "",
+        comment: ""
       }
     }))
   }
@@ -163,7 +165,7 @@ class App extends Component {
           {this.state.currentUser
             ?
             <>
-              <p>Welcome to EATT, {this.state.currentUser.username}!</p>
+              <p>Welcome, {this.state.currentUser.username}! You're logged in!</p>
               <button onClick={this.handleLogout}>Logout</button>
             </>
             :
@@ -171,7 +173,6 @@ class App extends Component {
           }
           
           </header>
-
 
 
         <Route exact path="/login" render={() => (

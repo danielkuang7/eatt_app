@@ -48,7 +48,7 @@ class RestaurantsController < ApplicationController
   
       # Only allow a trusted parameter "white list" through.
       def restaurant_params
-        params.require(:restaurant).permit(:name, :address, :photo)
+        params.require(:restaurant).permit(:name, :comment, :photo)
       end
   end
   

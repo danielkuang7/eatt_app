@@ -12,11 +12,19 @@ function CreateRestaurant(props) {
           name="photo"
           value={props.restaurantForm.photo}
           onChange={props.handleFormChange} />
-          <p>Restaurant's name:</p>
+          
+        <p>Restaurant's name:</p>
         <input
           type="text"
           name="name"
           value={props.restaurantForm.name}
+          onChange={props.handleFormChange} />
+
+          <p>Comment:</p>
+        <input
+          type="text"
+          name="comment"
+          value={props.restaurantForm.comment}
           onChange={props.handleFormChange} />
         <button>Submit</button>
       </form>
