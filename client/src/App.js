@@ -161,12 +161,26 @@ class App extends Component {
               photo: ""
             }
           })}>EATT</Link></h1>
+
+          <div className="nav"><Link to='/' onClick={() => this.setState({
+            restaurantForm: {
+              name: "",
+              photo: ""
+            }
+          })}>Home</Link>
+
+          <Link to='/monthly' onClick={() => this.setState({
+            restaurantForm: {
+              name: "",
+              photo: ""
+            }
+          })}>Hottest</Link></div>
           
           {this.state.currentUser
             ?
             <>
-              <p>Welcome, {this.state.currentUser.username}! You're logged in!</p>
-              <button onClick={this.handleLogout}>Logout</button>
+              <p>Logged in successfully!</p>
+              <button className="logout" onClick={this.handleLogout}>Logout</button>
             </>
             :
             <button onClick={this.handleLoginButton}>Login/Register</button>
@@ -188,7 +202,7 @@ class App extends Component {
             formData={this.state.authFormData} />)} />
 
         <Route
-          exact path="/"
+          exact path="/monthly"
           render={() => (
             <RestaurantsView
               restaurants={this.state.restaurants}

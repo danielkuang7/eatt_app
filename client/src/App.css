@@ -19,7 +19,7 @@ h3{
 }
 
 h4{
-  margin-left: 50px;
+  margin-left: 60px;
   color: white;
 }
 
@@ -31,18 +31,35 @@ header {
   width: 100%;
   top: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+header>p{
+  font-size: 12px;
+  margin-left: 20px;
 }
 
 header>h1>a {
   text-decoration: none;
   cursor: pointer;
   color: white;
-  margin-left: 200px;
+  margin-left: 0px;
+}
+
+.nav{
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+div>a{
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
 }
 
 header>button{
-  margin-left: 200px;
+  margin-left: 0px;
+  margin-right: 0px;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
 }
@@ -50,6 +67,15 @@ header>button{
 header>button:hover{
   background-color: rgb(161, 118, 44);
   color: white;
+}
+
+button.logout{
+  margin-left: 0px;
+  padding: 1px 1px;
+}
+
+a{
+  margin-left: 10px;
 }
 
 form>button {
@@ -72,7 +98,9 @@ form>button:hover {
   color: white;
 }
 
-
+.login, button {
+  margin-left: 10px;
+}
 
 
 .login-container {
@@ -113,7 +141,6 @@ html {
   display: grid;
   width: 20rem;
   margin: 8rem auto;
-  /* padding: 2rem 2rem 3.5rem 2rem; */
 }
 
 form>a{
