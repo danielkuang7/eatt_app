@@ -18,6 +18,11 @@ h3{
   color: white;
 }
 
+h4{
+  margin-left: 50px;
+  color: white;
+}
+
 header {
   font-family: 'Playfair Display SC', serif;
   padding: 0.5rem;
@@ -121,6 +126,7 @@ img {
 }
 
 .plus-sign {
+  margin-left: 60px;
   max-width: 4rem;
   cursor: pointer;
 }

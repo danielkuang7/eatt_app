@@ -30,7 +30,7 @@ function RestaurantsView(props) {
           alt="Create a new restaurant"
           src="https://cdn3.iconfinder.com/data/icons/buttons/512/Icon_11-512.png"
           className="plus-sign" />
-        <h3>Create a new restaurant</h3>
+        <h4>Create a new restaurant</h4>
       </div>
     </div>
   )

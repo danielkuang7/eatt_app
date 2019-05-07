@@ -28,7 +28,7 @@ class RestaurantsView extends Component {
                   handleFormChange={this.props.handleFormChange}
                   handleSubmit={(e) => {
                     e.preventDefault();
-                    this.props.EditRestaurant();
+                    this.props.editRestaurant();
                     this.setState({ isEdit: false })
                     this.props.history.push(`/restaurants/${this.props.restaurantForm.id}`)
                   }}
