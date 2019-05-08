@@ -1,24 +1,12 @@
-# README
+<<<<<<< HEAD
+EATT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app that allows you to create your recommended restaurant on the website
+=======
+# EATT
 
-Things you may want to cover:
+## This is an app that allows you to create your recommended restaurant on the website
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+>>>>>>> 222843d4de7fca71d147e67cd7153425f75c2011
