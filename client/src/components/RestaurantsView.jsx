@@ -4,7 +4,7 @@ import { withRouter } from 'react-router';
 function RestaurantsView(props) {
   return (
     <div className="restaurant-container">
-    <tag>OUR HOTTEST EATT OF THE MONTH</tag>
+    <span>OUR HOTTEST EATT OF THE MONTH</span>
       {props.restaurants.map(restaurant => (
         <div
           key={restaurant.id}

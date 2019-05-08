@@ -16,6 +16,7 @@ h2{
 }
 
 h3{
+  margin-left: 10px;
   color: white;
 }
 
@@ -97,6 +98,13 @@ form>button:hover {
   color: white;
 }
 
+span{
+color: white;
+font-family: 'Playfair Display SC', serif;
+margin-top: -100px;
+margin-left: 10px;
+}
+
 .restaurant-page, button{
   margin-left: 10px;
   -webkit-transition-duration: 0.4s; 
@@ -115,13 +123,13 @@ form>button:hover {
 .login-container {
   display: flex;
   justify-content: center;
-  margin: 8rem 15rem;
+  margin: 0 15rem;
 }
 
 .register-container {
   display: flex;
   justify-content: center;
-  margin: 8rem 15rem;
+  margin: 0 15rem;
 }
 
 html {
@@ -148,11 +156,6 @@ html {
   transition-duration: 0.4s;
 }
 
-.restaurant-page, tag{
- font-family: 'Playfair Display SC', serif;
- color: white;
- margin-left: 50px;
-}
 
 .restaurant-page, p:hover {
   color: rgb(161, 118, 44);
@@ -161,7 +164,7 @@ html {
 .create-restaurant {
   display: grid;
   width: 20rem;
-  margin: 5rem auto;
+  margin: 0 auto;
 }
 
 form>p{
