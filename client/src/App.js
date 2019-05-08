@@ -191,7 +191,7 @@ class App extends Component {
           
           </header>
 
-
+        <Logo/>
           
 
         <Route exact path="/login" render={() => (
