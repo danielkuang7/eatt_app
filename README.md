@@ -6,6 +6,13 @@
 # Entity Relationship Diagram
 ![ERD](eatterd.png)
 
+# Wireframe
+![Wireframe](client/src/images/1.png)
+![Wireframe](client/src/images/2.png)
+![Wireframe](client/src/images/3.png)
+![Wireframe](client/src/images/4.png)
+![Wireframe](client/src/images/5.png)
+
 # Installation Instructions
 
 1) Open up the app:
