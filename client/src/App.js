@@ -207,8 +207,7 @@ class App extends Component {
             formData={this.state.authFormData} />)} />
 
         <Route
-          exact path="/monthly"
-          render={() => (
+          exact path="/monthly" render={() => (
             <RestaurantsView
               restaurants={this.state.restaurants}
               restaurantForm={this.state.restaurantForm}

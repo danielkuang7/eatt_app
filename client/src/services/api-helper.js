@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000'
+const baseUrl = 'https://eatt.herokuapp.com'
 
 export const loginUser = (loginData) => {
   const opts = {
@@ -42,6 +42,7 @@ const readAllRestaurants = () => {
   return fetch(`${baseUrl}/restaurants`)
     .then(resp => resp.json())
 }
+
 
 const updateRestaurant = (id, data) => {
   const opts = {

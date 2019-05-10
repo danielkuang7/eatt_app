@@ -12,6 +12,7 @@ h1 {
 
 
 h2{
+  margin-left: 90px;
   color:white;
 }
 
@@ -101,8 +102,8 @@ form>button:hover {
 span{
 color: white;
 font-family: 'Playfair Display SC', serif;
-margin-top: -100px;
-margin-left: 10px;
+margin-top: -10px;
+margin-left: 20px;
 }
 
 .restaurant-page, button{
@@ -137,10 +138,7 @@ html {
 }
 
 .restaurant-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  grid-gap: 10px;
-  margin: 8rem 10rem;
+  margin: 8rem 8rem;
 }
 
 
@@ -151,7 +149,7 @@ html {
 .restaurant-page, p {
  font-family: 'Playfair Display SC', serif;
  color: white;
- margin-left: 30px;
+ margin-left: 5px;
  -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
 }
@@ -187,7 +185,7 @@ form>div>button{
 
 img {
   max-width: 30rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .plus-sign {
