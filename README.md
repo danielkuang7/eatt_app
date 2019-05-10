@@ -1,11 +1,12 @@
 # [EATT](http://eatt.surge.sh/)
 
+# Description
 ## This is an app that allows you to create your favorite restaurant on the website. It was created with a React front-end and Ruby on Rails back-end.
 
-## Entity Relationship Diagram
+# Entity Relationship Diagram
 ![ERD](eatterd.png)
 
-## Installation Instructions
+# Installation Instructions
 
 1) Open up the app:
 
