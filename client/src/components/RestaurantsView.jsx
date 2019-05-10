@@ -5,6 +5,7 @@ function RestaurantsView(props) {
   return (
     <div className="restaurant-container">
     <span>OUR HOTTEST EATT OF THE MONTH</span>
+    
       {props.restaurants.map(restaurant => (
         <div
           key={restaurant.id}
